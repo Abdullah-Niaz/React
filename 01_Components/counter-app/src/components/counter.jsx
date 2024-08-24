@@ -3,11 +3,7 @@ import React, { Component } from "react";
 class Counter extends Component {
   state = {
     count: 0,
-    address: {
-      street: "Lane",
-      city: "youGanda",
-      country: "kenia",
-    },
+    tags : ['tag1','tag2','tag3']
   };
 
   // Method to handle incrementing the count
@@ -31,6 +27,11 @@ class Counter extends Component {
         >
           Increment
         </button>
+        
+        <ul>
+            {this.state.tags.map(tag =><li key={tag}>{tag}</li>)}
+        </ul>
+
       </div>
     );
   } 

@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Counter from './components/counter';
+import ConditionRender from './components/conditionalRendering';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.Fragment>
-    <Counter />
+    {/* <Counter /> */}
+    <ConditionRender />
   </React.Fragment>
   // <React.StrictMode>
   // </React.StrictMode>
