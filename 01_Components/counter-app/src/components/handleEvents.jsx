@@ -19,7 +19,16 @@ class HandleEvents extends Component {
 
     // ES6 Fucntion fetches the refrences automatically
     HandleIncrement = () => {   
-        console.log("increment Value ", this);
+        // console.log("increment Value ", this);
+        // this.setState({count : this.state.count + 1})
+        // console.log(this.state.count);
+        // return this.state.count++;
+        if ( this.state.count < 5 ){
+            this.setState({count: this.state.count+ 1})
+        }
+        else{
+            alert("Count is Restricted to 5");
+        }
     }
     render() { 
         return (  
