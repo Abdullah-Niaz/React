@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import react from 'react'
+import Movies from './components/movies';
 function App() {
+
   return (
-    <div className="container">
-      <i class="fas fa-h1">Hello World!</i>
-    </div>
+    <react.Fragment>
+      <div class="container">
+        <Movies />
+      </div>
+
+    </react.Fragment>
 
   );
 }
