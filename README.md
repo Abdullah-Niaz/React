@@ -1,5 +1,3 @@
-
-
 # 🧭 React Beginner Roadmap (2025 Edition)
 
 ---
