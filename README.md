@@ -221,7 +221,8 @@ Make sure you're confident in:
   * `freeCodeCamp React Course`
   * `Codevolution`
   * `Web Dev Simplified`
-    
+  * `chai ur code`
+  
 * **Practice**:
 
   * [frontendmentor.io](https://www.frontendmentor.io/)
