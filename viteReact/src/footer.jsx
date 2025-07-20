@@ -2,7 +2,7 @@ import './style/Footer.css'
 function Footer(){
     return (
         <>
-        <div className="footer">
+        <div classNameName="footer">
             <h1>Footer Section</h1>
 
         </div>

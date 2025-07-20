@@ -2,7 +2,7 @@ import './style/Nav.css'
 function Nav(){
     return (
         <>
-        <div className='nav'>
+        <div classNameName='nav'>
             <h1>Nav Section</h1>
         </div>
             

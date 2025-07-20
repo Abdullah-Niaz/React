@@ -5,12 +5,12 @@ import './style/Section.css';
 function Section(){
     return (
         <>
-        <div className="section">
-            <div className="article">
+        <div classNameName="section">
+            <div classNameName="article">
 
             <Article/>
             </div>
-            <div className="aside">
+            <div classNameName="aside">
 
             <Aside/>
             </div>
