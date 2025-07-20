@@ -9,7 +9,21 @@ function App() {
   const max = 5;
 
   const addValue = () => {
-    if (counter < max) setCounter(prev => prev + 1);
+    if (counter < max) {
+      // work as a single package 
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+
+      // single update of each 
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+
+      
+    };
   };
 
   const removeValue = () => {
