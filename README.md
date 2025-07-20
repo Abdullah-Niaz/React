@@ -53,7 +53,7 @@ Make sure you're confident in:
 ### 📘 JSX (JavaScript XML)
 
 - Embedding expressions
-- Differences from HTML (e.g., `classNameName` vs `className`)
+- Differences from HTML (e.g., `className` vs `className`)
 
 ### 🔥 Components
 
