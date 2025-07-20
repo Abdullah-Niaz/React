@@ -6,7 +6,7 @@ className Movies extends Component {
      } 
     render() { 
         return (
-            <table classNameName="table">
+            <table className="table">
                 <thead>
                     <tr>
                         <th>Title</th>

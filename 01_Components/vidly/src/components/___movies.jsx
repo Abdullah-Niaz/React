@@ -19,7 +19,7 @@ className Movies extends Component {
     return (
       <React.Fragment>
         <p>Showing {count} movies in the database.</p>
-        <table classNameName="table">
+        <table className="table">
           <thead>
             <tr>
               <th>Title</th>
@@ -39,7 +39,7 @@ className Movies extends Component {
                 <td>
                   <button
                     onClick={() => this.handleDelete(movie)}
-                    classNameName="btn btn-danger btn-sm"
+                    className="btn btn-danger btn-sm"
                   >
                     Delete
                   </button>
