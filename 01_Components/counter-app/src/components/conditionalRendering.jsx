@@ -13,7 +13,7 @@ className ConditionRender extends Component {
 
  render() {
     return (
-      <div classNameName="d-flex justify-center align-center">
+      <div className="d-flex justify-center align-center">
         <ul>
           {this.renderTags()}
         </ul>

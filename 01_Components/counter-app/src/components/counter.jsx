@@ -20,10 +20,10 @@ className Counter extends Component {
     let classNamees = this.getBadgeclassNamees();
     return (
       <div>
-        <span classNameName={classNamees}>{this.formatCount()}</span>
+        <span className={classNamees}>{this.formatCount()}</span>
         <button
           onClick={this.countIncrement}
-          classNameName="btn btn-secondary btn-sm"
+          className="btn btn-secondary btn-sm"
         >
           Increment
         </button>
