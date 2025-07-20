@@ -8,26 +8,26 @@ Make sure you're confident in:
 
 ### ✅ HTML & CSS
 
-* Semantic HTML
-* Flexbox & Grid
-* Forms
-* Media Queries
+- Semantic HTML
+- Flexbox & Grid
+- Forms
+- Media Queries
 
 ### ✅ JavaScript (ES6+)
 
-* `let`, `const`, arrow functions
-* `map`, `filter`, `reduce`
-* Spread/rest operators
-* Destructuring
-* Callbacks, Promises, async/await
-* `this`, closures, scope, hoisting
-* DOM manipulation
+- `let`, `const`, arrow functions
+- `map`, `filter`, `reduce`
+- Spread/rest operators
+- Destructuring
+- Callbacks, Promises, async/await
+- `this`, closures, scope, hoisting
+- DOM manipulation
 
 ### ✅ Git & GitHub
 
-* Clone, commit, push, pull
-* Creating branches
-* README writing
+- Clone, commit, push, pull
+- Creating branches
+- README writing
 
 ---
 
@@ -37,8 +37,8 @@ Make sure you're confident in:
 
 ### 📦 Environment Setup
 
-* Install Node.js & npm
-* Create a project using:
+- Install Node.js & npm
+- Create a project using:
 
   ```bash
   npx create-react-app my-app
@@ -52,41 +52,41 @@ Make sure you're confident in:
 
 ### 📘 JSX (JavaScript XML)
 
-* Embedding expressions
-* Differences from HTML (e.g., `className` vs `class`)
+- Embedding expressions
+- Differences from HTML (e.g., `classNameName` vs `className`)
 
 ### 🔥 Components
 
-* Functional components
-* Props
-* Reusability
+- Functional components
+- Props
+- Reusability
 
 ### 🔄 State Management (Local)
 
-* `useState` hook
-* Updating and rendering state
+- `useState` hook
+- Updating and rendering state
 
 ### 📢 Event Handling
 
-* Handling user input
-* Passing functions as props
+- Handling user input
+- Passing functions as props
 
 ### 🌐 Conditional Rendering
 
-* `if/else`, ternary operator
-* `&&` short-circuit
+- `if/else`, ternary operator
+- `&&` short-circuit
 
 ### 🔁 Lists and Keys
 
-* Rendering lists with `.map()`
-* Importance of unique `key`
+- Rendering lists with `.map()`
+- Importance of unique `key`
 
 ### 🎨 Styling in React
 
-* CSS Modules
-* Inline Styles
-* Styled Components (optional)
-* TailwindCSS (optional)
+- CSS Modules
+- Inline Styles
+- Styled Components (optional)
+- TailwindCSS (optional)
 
 ---
 
@@ -96,26 +96,26 @@ Make sure you're confident in:
 
 ### 🪝 React Hooks (Core)
 
-* `useEffect` for side effects (API calls, event listeners)
-* `useRef` for accessing DOM or persisting values
-* `useContext` for prop drilling avoidance
+- `useEffect` for side effects (API calls, event listeners)
+- `useRef` for accessing DOM or persisting values
+- `useContext` for prop drilling avoidance
 
 ### 📡 Fetching Data
 
-* Using `fetch` or `axios`
-* Loading and error states
+- Using `fetch` or `axios`
+- Loading and error states
 
 ### 🧩 Forms and Controlled Components
 
-* `onChange`, `value` in inputs
-* Controlled vs Uncontrolled forms
-* Form validation (optional: libraries like Formik/Yup)
+- `onChange`, `value` in inputs
+- Controlled vs Uncontrolled forms
+- Form validation (optional: libraries like Formik/Yup)
 
 ### 🗂️ Component Reusability and Composition
 
-* Children props
-* Higher Order Components (HOC)
-* Custom Hooks
+- Children props
+- Higher Order Components (HOC)
+- Custom Hooks
 
 ---
 
@@ -125,16 +125,17 @@ Make sure you're confident in:
 
 ### 🧭 React Router DOM
 
-* Installation:
+- Installation:
 
   ```bash
   npm install react-router-dom
   ```
-* Basic Routing: `<BrowserRouter>`, `<Routes>`, `<Route>`
-* Route Parameters
-* Navigation: `useNavigate()`
-* Nested Routes
-* 404 Pages
+
+- Basic Routing: `<BrowserRouter>`, `<Routes>`, `<Route>`
+- Route Parameters
+- Navigation: `useNavigate()`
+- Nested Routes
+- 404 Pages
 
 ---
 
@@ -144,23 +145,23 @@ Make sure you're confident in:
 
 ### 📦 Global State Management
 
-* Context API
-* Redux Toolkit or Zustand (recommended)
-* When to use global state?
+- Context API
+- Redux Toolkit or Zustand (recommended)
+- When to use global state?
 
 ### 💡 Code Splitting & Lazy Loading
 
-* `React.lazy`, `Suspense`
+- `React.lazy`, `Suspense`
 
 ### 🚀 Performance Optimization
 
-* `React.memo`, `useMemo`, `useCallback`
-* Virtualization (React Window)
+- `React.memo`, `useMemo`, `useCallback`
+- Virtualization (React Window)
 
 ### 🧪 Testing (Optional but Useful)
 
-* Unit Testing with Jest
-* Component Testing with React Testing Library
+- Unit Testing with Jest
+- Component Testing with React Testing Library
 
 ---
 
@@ -181,50 +182,51 @@ Make sure you're confident in:
 
 ### 💼 Developer Tools
 
-* React Developer Tools (Chrome Extension)
-* VSCode Extensions: ESLint, Prettier, React Snippets
+- React Developer Tools (Chrome Extension)
+- VSCode Extensions: ESLint, Prettier, React Snippets
 
 ### 📦 UI Libraries
 
-* Material UI
-* Chakra UI
-* Tailwind CSS
+- Material UI
+- Chakra UI
+- Tailwind CSS
 
 ### 🧰 Other Tools
 
-* Vite (Fast React dev server)
-* Figma (for UI design)
-* Netlify / Vercel (for deployment)
+- Vite (Fast React dev server)
+- Figma (for UI design)
+- Netlify / Vercel (for deployment)
 
 ---
 
 ## ✅ 8. **Deploy Your App**
 
-* Build using:
+- Build using:
 
   ```bash
   npm run build
   ```
-* Deploy using:
 
-  * Netlify
-  * Vercel
-  * GitHub Pages
+- Deploy using:
+
+  - Netlify
+  - Vercel
+  - GitHub Pages
 
 ---
 
 ## 📚 9. **Learning Resources**
 
-* **Docs**: [https://react.dev/](https://react.dev/)
-* **YouTube**:
+- **Docs**: [https://react.dev/](https://react.dev/)
+- **YouTube**:
 
-  * `freeCodeCamp React Course`
-  * `Codevolution`
-  * `Web Dev Simplified`
-  * `chai ur code`
-  
-* **Practice**:
+  - `freeCodeCamp React Course`
+  - `Codevolution`
+  - `Web Dev Simplified`
+  - `chai ur code`
 
-  * [frontendmentor.io](https://www.frontendmentor.io/)
-  * [devchallenges.io](https://devchallenges.io/)
-  * [codewell.cc](https://www.codewell.cc
+- **Practice**:
+
+  - [frontendmentor.io](https://www.frontendmentor.io/)
+  - [devchallenges.io](https://devchallenges.io/)
+  - [codewell.cc](https://www.codewell.cc
