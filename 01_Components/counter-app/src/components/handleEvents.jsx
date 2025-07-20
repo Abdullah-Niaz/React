@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-class HandleEvents extends Component {
+className HandleEvents extends Component {
     // binding event handlers
     // constructor(){
     //     super();

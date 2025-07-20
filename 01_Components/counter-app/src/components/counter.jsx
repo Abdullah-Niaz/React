@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Counter extends Component {
+className Counter extends Component {
   state = {
     count: 0,
     tags : ['tag1','tag2','tag3']
@@ -16,14 +16,14 @@ class Counter extends Component {
   }
 
   render() {
-        // Dynamic class assignment based on count value
-    let classes = this.getBadgeClasses();
+        // Dynamic className assignment based on count value
+    let classNamees = this.getBadgeclassNamees();
     return (
       <div>
-        <span className={classes}>{this.formatCount()}</span>
+        <span classNameName={classNamees}>{this.formatCount()}</span>
         <button
           onClick={this.countIncrement}
-          className="btn btn-secondary btn-sm"
+          classNameName="btn btn-secondary btn-sm"
         >
           Increment
         </button>
@@ -37,10 +37,10 @@ class Counter extends Component {
   } 
 
 
-    getBadgeClasses() {
-        let classes = "badge m-2 ";
-        classes += this.state.count === 0 ? "text-bg-warning" : "text-bg-primary";
-        return classes;
+    getBadgeclassNamees() {
+        let classNamees = "badge m-2 ";
+        classNamees += this.state.count === 0 ? "text-bg-warning" : "text-bg-primary";
+        return classNamees;
     }
 }
 

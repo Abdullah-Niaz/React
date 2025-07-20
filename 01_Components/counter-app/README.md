@@ -8,7 +8,7 @@
 
 ### Setting Attributes
 
-### Redering Classes
+### Redering classNamees
 
 ### Redering Lists
 

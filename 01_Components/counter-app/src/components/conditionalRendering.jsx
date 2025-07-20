@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import '../style/cond.css'
 
-class ConditionRender extends Component {
+className ConditionRender extends Component {
   state = {
     tags: ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7"],
   };
@@ -13,7 +13,7 @@ class ConditionRender extends Component {
 
  render() {
     return (
-      <div className="d-flex justify-center align-center">
+      <div classNameName="d-flex justify-center align-center">
         <ul>
           {this.renderTags()}
         </ul>
