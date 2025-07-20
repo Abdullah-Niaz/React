@@ -6,7 +6,7 @@ function App() {
 
   return (
     <react.Fragment>
-      <div class="container">
+      <div className="container">
         <Movies />
       </div>
 

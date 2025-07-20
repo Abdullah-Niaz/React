@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { getMovies } from '../services/fakeMovieService';
-class Movies extends Component {
+className Movies extends Component {
     state = { 
         movie : getMovies()
      } 
     render() { 
         return (
-            <table className="table">
+            <table classNameName="table">
                 <thead>
                     <tr>
                         <th>Title</th>
