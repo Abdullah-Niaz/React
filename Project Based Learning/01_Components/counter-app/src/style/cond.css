@@ -1,0 +1,11 @@
+* {
+  background-color: blue;
+}
+
+.box {
+  width: 200px;
+  height: 300px;
+  background-color: green;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
