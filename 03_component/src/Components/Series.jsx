@@ -1,40 +1,25 @@
 import { useState } from "react";
-import seriesData from "../api/seriesData.json";
 import "../App.css";
 
+import SeriesDataJ from "./SeriesDataJ";
+
+import seriesData from "../api/seriesData.json";
+
 function Series() {
+
+
   const [count, setCount] = useState(0);
+    return (
+        <ul>
+        {
+            seriesData.map((currEle) => (
+                <SeriesDataJ key={currEle.id} currEle={currEle}/>
 
-  return (
-    <>
-      <WellcomeComponent />
-    </>
-  );
+            ))
+        }   
+    </ul>
+    );
 }
-const WellcomeComponent = (props) => {
-  return (
-    <>
-      {seriesData.map(currFilm => (
-        <div className="mainContainer" key={currFilm.id}>
-          <div className="imageCard">
-            <img src={currFilm.img_url} alt="" />
-          </div>
-          <div className="contentCard">
-            <h2>{currFilm.name}</h2>
-            <h3>Rating: {currFilm.rating}</h3>
-            <p>Summary: {currFilm.description}</p>
-            <p>Genre: {currFilm.genre}</p>
-            <p>Cast: {currFilm.cast}</p>
-            <a href={currFilm.watch_url} target="_blank" rel="noreferrer">
-              <button>Watch Now</button>
-            </a>
-          </div>
-        </div>
-      ))}
-    </>
-  );
-};
-
 
 // const WellcomeComponent = (props)=>{
 //   return (
