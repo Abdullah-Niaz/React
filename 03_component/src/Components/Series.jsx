@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "../App.css";
 
-import SeriesDataJ from "./SeriesDataJ";
 
 import seriesData from "../api/seriesData.json";
+import SereisCard from "./SeriesCard"
 
 function Series() {
 
@@ -13,7 +13,7 @@ function Series() {
         <ul>
         {
             seriesData.map((currEle) => (
-                <SeriesDataJ key={currEle.id} currEle={currEle}/>
+                <SereisCard key={currEle.id} currEle={currEle}/>
 
             ))
         }   

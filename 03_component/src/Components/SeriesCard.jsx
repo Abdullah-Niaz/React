@@ -1,5 +1,5 @@
 import seriesData from '../api/seriesData.json'
-const SeriesDataJ = (props) => {
+const SeriesCard = (props) => {
   return (
     <>
       
@@ -23,4 +23,4 @@ const SeriesDataJ = (props) => {
   );
 };
 
-export default SeriesDataJ
+export default SeriesCard
