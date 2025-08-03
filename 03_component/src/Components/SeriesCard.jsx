@@ -1,19 +1,20 @@
 import seriesData from '../api/seriesData.json'
-const SeriesCard = (props) => {
+const SeriesCard = ({props}) => {
+  const {id, img_url,name,rating, description,genre,cast,watch_url}= props
   return (
     <>
       
-        <div className="mainContainer" key={props.currEle.id}>
+        <div className="mainContainer" key={id}>
           <div className="imageCard">
-            <img src={props.currEle.img_url} alt="" />
+            <img src={img_url} alt="" />
           </div>
           <div className="contentCard">
-            <h2>{props.currEle.name}</h2>
-            <h3><b>Rating: </b>{props.currEle.rating}</h3>
-            <p><b>Summary: </b>{props.currEle.description}</p>
-            <p><b>Genre: </b>{props.currEle.genre}</p>
-            <p><b>Cast: </b>{props.currEle.cast}</p>
-            <a href={props.currEle.watch_url} target="_blank" rel="noreferrer">
+            <h2>{name}</h2>
+            <h3><b>Rating: </b>{rating}</h3>
+            <p><b>Summary: </b>{description}</p>
+            <p><b>Genre: </b>{genre}</p>
+            <p><b>Cast: </b>{cast}</p>
+            <a href={watch_url} target="_blank" rel="noreferrer">
               <button>Watch Now</button>
             </a>
           </div>

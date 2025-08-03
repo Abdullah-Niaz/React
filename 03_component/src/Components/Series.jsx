@@ -13,7 +13,7 @@ function Series() {
         <ul>
         {
             seriesData.map((currEle) => (
-                <SereisCard key={currEle.id} currEle={currEle}/>
+                <SereisCard key={currEle.id} props={currEle}/>
 
             ))
         }   
