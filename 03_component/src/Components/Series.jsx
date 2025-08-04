@@ -1,24 +1,22 @@
 import { useState } from "react";
-import "../App.css";
-
+// import "../App.css";
+import "./Series.css";
 
 import seriesData from "../api/seriesData.json";
-import SereisCard from "./SeriesCard"
+import SereisCard from "./SeriesCard";
 
 function Series() {
-
-
   const [count, setCount] = useState(0);
-    return (
-        <ul>
-        {
-            seriesData.map((currEle) => (
-                <SereisCard key={currEle.id} props={currEle}/>
-
-            ))
-        }   
-    </ul>
-    );
+  return (
+    <>
+      <h1 style={{ textAlign: "center", margin: "20px 0" }}>List of Movies</h1>
+      <div className="seriesGrid">
+        {seriesData.map((currEle) => (
+          <SereisCard key={currEle.id} props={currEle} />
+        ))}
+      </div>
+    </>
+  );
 }
 
 // const WellcomeComponent = (props)=>{

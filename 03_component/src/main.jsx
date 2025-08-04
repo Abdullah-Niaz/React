@@ -7,8 +7,9 @@ import Profile from './Components/Profile.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <Series/> */}
+    <Series/>
+    {/* <Button/> */}
     {/* <App /> */}
-    <Profile/>
+    {/* <Profile/> */}
   </StrictMode>,
 )

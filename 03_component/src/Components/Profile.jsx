@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export default function Profile() {
-   return (
+  return (
     <div>
       <h1>Profile Card Challenge</h1>
       <ProfileCard
@@ -33,14 +33,19 @@ export default function Profile() {
   );
 }
 
-
-function ProfileCard(props){
-    return (
-        <>
-            <h2>Name: {props.name}</h2>
-            <p>Age: {props.age}</p>
-            <p>{props.greeting}</p>
-            <p>{children}</p>
-        </>
-    )
+function ProfileCard(props) {
+  return (
+    <div
+      style={{
+        border: "2px solid #ccc",
+        padding: "15px",
+        marginBottom: "20px",
+      }}
+    >
+      <h2>Name: {props.name}</h2>
+      <p>Age: {props.age}</p>
+      <div>{props.greeting}</div>
+      <div>{props.children}</div>
+    </div>
+  );
 }
