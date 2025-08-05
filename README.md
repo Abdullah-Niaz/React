@@ -1,7 +1,5 @@
 # 🧭 React Beginner Roadmap (2025 Edition)
-
 ---
-
 ## 🟢 1. **Prerequisites (Before React)**
 
 Make sure you're confident in:
