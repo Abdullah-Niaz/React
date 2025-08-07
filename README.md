@@ -231,10 +231,10 @@ Make sure you're confident in:
   - 
 
 ## For Now covered topics : 
-Introduction to React v19
-JSX and Rendering Elements
-Components and Props
-State and Lifecycle
-Handling Events
-Conditional Rendering
+* Introduction to React v19
+* JSX and Rendering Elements
+* Components and Props
+* State and Lifecycle
+* Handling Events
+* Conditional Rendering
   
