@@ -1,5 +1,7 @@
 # 🧭 React Beginner Roadmap (2025 Edition)
+
 ---
+
 ## 🟢 1. **Prerequisites (Before React)**
 
 Make sure you're confident in:
@@ -228,13 +230,16 @@ Make sure you're confident in:
   - [frontendmentor.io](https://www.frontendmentor.io/)
   - [devchallenges.io](https://devchallenges.io/)
   - [codewell.cc](https://www.codewell.cc
-  - 
+  -
 
-## For Now covered topics : 
-* Introduction to React v19
-* JSX and Rendering Elements
-* Components and Props
-* State and Lifecycle
-* Handling Events
-* Conditional Rendering
-  
+## For Now covered topics :
+
+- Introduction to React v19
+- JSX and Rendering Elements
+- Components and Props
+- State and Lifecycle
+- Handling Events
+- Conditional Rendering
+- Styled Components
+  - Object Based Styling
+  - Template literal Styling
