@@ -244,3 +244,4 @@ Make sure you're confident in:
   - Object Based Styling
   - Template literal Styling
 - Event Handling
+- Passing Event Handlers as a Props
