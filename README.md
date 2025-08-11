@@ -243,3 +243,4 @@ Make sure you're confident in:
 - Styled Components
   - Object Based Styling
   - Template literal Styling
+- Event Handling
