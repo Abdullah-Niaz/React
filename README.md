@@ -245,4 +245,4 @@ Make sure you're confident in:
   - Template literal Styling
 - Event Handling
 - Passing Event Handlers as a Props
-
+- Event Propagation
