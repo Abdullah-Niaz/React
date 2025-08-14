@@ -247,5 +247,5 @@ Make sure you're confident in:
 - Passing Event Handlers as a Props
 - Event Propagation
   - Capturing Phase
-  - Tarhet Phase
+  - Target Phase
   - Bubbling Phase 
