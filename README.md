@@ -246,3 +246,6 @@ Make sure you're confident in:
 - Event Handling
 - Passing Event Handlers as a Props
 - Event Propagation
+  - Capturing Phase
+  - Target Phase
+  - Bubbling Phase 
