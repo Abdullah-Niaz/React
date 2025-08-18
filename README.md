@@ -249,4 +249,5 @@ Make sure you're confident in:
   - Capturing Phase
   - Target Phase
   - Bubbling Phase 
-- states & how state works 
+- states & how state works
+- 
