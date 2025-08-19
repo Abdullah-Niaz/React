@@ -248,6 +248,6 @@ Make sure you're confident in:
 - Event Propagation
   - Capturing Phase
   - Target Phase
-  - Bubbling Phase 
+  - Bubbling Phase
 - states & how state works
-
+- Derived States
