@@ -251,3 +251,5 @@ Make sure you're confident in:
   - Bubbling Phase
 - states & how state works
 - Derived States
+
+- **Project:** Toggle Switch (Palying with States)
