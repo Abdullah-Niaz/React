@@ -5,11 +5,15 @@ import App from './App.jsx'
 import Ch from './Components/Ch.jsx'
 import Derived from './Components/Derived.jsx'
 import ExpensiveComponent from './Components/ExpensiveComponent.jsx'
+import ShortCurcuit from './Components/ShortCurcuit.jsx'
+import Greeting from './Components/Greeting.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Ch/> */}
     {/* <Derived/> */}
-    <ExpensiveComponent numbers={[1, 2, 3, 4, 5]} />
+    {/* <ExpensiveComponent numbers={[1, 2, 3, 4, 5]} /> */}
+    <ShortCurcuit/>
+    {/* <Greeting isLoggedIn={false}/> */}
   </StrictMode>,
 )
