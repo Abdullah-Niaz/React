@@ -7,12 +7,14 @@ import ControlledComponent from './Components/hooks/useState/ControlledComponent
 import UnControlledComponent from './Components/hooks/useState/UnControlledComponent.jsx'
 
 import Challenge from './Components/hooks/useState/challenge.jsx'
+import Registration from './Components/hooks/useState/Registration.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Challenge/> */}
-    <Index/>
+    {/* <Index/> */}
+    <Registration/>
     {/* <ControlledComponent/>
     <UnControlledComponent/> */}
   </StrictMode>,
