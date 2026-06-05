@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-card {
+  width: 450px;
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.counter-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.count-value {
+  color: #38bdf8;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.icon-btn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 16px;
+  background: #2563eb;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon-btn:hover {
+  transform: translateY(-3px);
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #ef4444;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.amount-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.amount-section input {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #334155;
+  color: white;
+  outline: none;
+}
+
+.amount-btn {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #10b981;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container {
+  min-height: 100vh;
+  transition: 0.3s ease;
+}
+
+.container.dark {
+  background: #0f172a;
+  color: white;
+}
+
+.container.light {
+  background: #f8fafc;
+  color: #111827;
+}
